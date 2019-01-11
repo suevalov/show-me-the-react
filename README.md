@@ -1,12 +1,9 @@
-Note that the technique this extension used no longer works. You can get a very similar effect by installing the React developer tools and enabling "Highlight Updates" in the preferences. It is unlikely that the effort will be put into trying to make this extension work again however PRs are welcomed.
+## Installing extension locally
 
-# Show me the React!
+Copy this repository. Go to chrome://extensions/ and enable `Developer mode`.
+Click `Load unpacked` and select this repository folder.
 
-Available as:
-* [Google Chrome extension](https://chrome.google.com/webstore/detail/show-me-the-react/iaebolhfcmodobkanmaahdhnlplncbnd?hl=en-US&gl=US)
-* [Firefox extension](https://github.com/insin/show-me-the-react)
-
-## Chrome extension details 
+## Chrome extension details
 
 It is a page action so the icon (![Icon displayed in URL bar](./images/react-19.png "Icon displayed in URL bar")) only shows up in the URL
 bar when the page contains React-managed DOM. It is off by default -- you have to click the icon to highlight the elements rendered/managed by React (and you can click the icon again to toggle the highlight off). You can install this from the [Chrome Web Store](https://chrome.google.com/webstore/detail/show-me-the-react/iaebolhfcmodobkanmaahdhnlplncbnd?hl=en-US&gl=US).

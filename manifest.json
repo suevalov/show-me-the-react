@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Show me the React!",
+  "name": "Show me the Contentful React!",
   "short_name": "See React!",
   "description": "Highlight React components on the page.",
   "version": "1.1",

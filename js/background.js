@@ -7,6 +7,9 @@ function registerDeclaration() {
         }),
         new chrome.declarativeContent.PageStateMatcher({
           css: ['[data-reactroot]']
+        }),
+        new chrome.declarativeContent.PageStateMatcher({
+          css: ['react-component']
         })
       ],
       actions: [new chrome.declarativeContent.ShowPageAction() ]

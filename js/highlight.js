@@ -15,7 +15,7 @@ if (style) {
     0
   );
   style.sheet.insertRule(
-    '[data-reactid],[data-reactroot] { \
+    '[data-reactid],[data-reactroot],react-component > * { \
         color: #000 !important; \
         background-color: rgba(178, 233, 247, 0.4) !important; \
         animation: shadowlicious ease-in-out 2.5s infinite; \
